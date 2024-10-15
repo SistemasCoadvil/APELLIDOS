@@ -1,0 +1,16 @@
+dir
+mkdir ProyectoEscolar_CASTRO_DOMINGUEZ
+DIR
+CD ProyectoEscolar_CASTRO_DOMINGUEZ
+mkdir Documentos Anexos Imagenes Presentaciones
+dir
+cd Anexos
+echo Borrador.txt
+dir
+copy Borrador.txtC:\Users\Alumno\ProyectoEscolar_CASTRO_DOMINGUEZ\Documentos
+cd ..
+doskey h/
+doskey h\
+doskey history
+doskey /history
+doskey /history > historial_CASTRO_DOMINGUEZ.txt
